@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+﻿  main.cpp
+  Manage.cpp
+  正在生成代码...
+c:\users\14579\documents\github\computernet1.0\computernet1.0\computernet1.0\manage.cpp(72): warning C4715: “Manage::Num”: 不是所有的控件路径都返回值
+F:\vs\VS程序\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(651,5): error MSB6006: “link.exe”已退出，代码为 1104。
+LINK : fatal error LNK1104: 无法打开文件“gdi32.lib”
+=======
 ﻿  Manage.cpp
   正在生成代码...
 c:\users\10146\documents\github\computernet1.0\computernet1.0\computernet1.0\manage.cpp(72): warning C4715: “Manage::Num”: 不是所有的控件路径都返回值
@@ -5,3 +13,4 @@ c:\users\10146\documents\github\computernet1.0\computernet1.0\computernet1.0\man
   main.cpp
   ComputerNet1.0.vcxproj -> C:\Users\10146\Documents\GitHub\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.exe
   ComputerNet1.0.vcxproj -> C:\Users\10146\Documents\GitHub\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.pdb (Partial PDB)
+>>>>>>> 584e025d0687d7818db901b426e94eea36d9ae61
