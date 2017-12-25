@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 ﻿LINK : fatal error LNK1104: 无法打开文件“gdi32.lib”
+=======
+﻿  ComputerNet1.0.vcxproj -> C:\Users\10146\Documents\GitHub\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.exe
+  ComputerNet1.0.vcxproj -> C:\Users\10146\Documents\GitHub\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.pdb (Partial PDB)
+>>>>>>> 1e17eb929c3dadbf4d07d9195ce65ad8160e078d
