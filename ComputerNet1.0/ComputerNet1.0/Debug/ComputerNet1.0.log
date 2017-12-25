@@ -1,9 +1,6 @@
-﻿  Manage3.cpp
-  Manage2.cpp
+﻿  main.cpp
+c:\users\10146\documents\github\computernet1.0\computernet1.0\computernet1.0\main.cpp(11): error C2059: 语法错误:“<<”
+c:\users\10146\documents\github\computernet1.0\computernet1.0\computernet1.0\main.cpp(15): error C2059: 语法错误:“>>”
+c:\users\10146\documents\github\computernet1.0\computernet1.0\computernet1.0\main.cpp(17): error C2143: 语法错误: 缺少“;”(在“{”的前面)
   Manage1.cpp
-  main.cpp
   正在生成代码...
-c:\users\10146\documents\github\computernet1.0\computernet1.0\computernet1.0\manage2.cpp(49): warning C4715: “Manage::Num”: 不是所有的控件路径都返回值
-  LINK : 没有找到 C:\Users\10146\Documents\GitHub\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.exe 或上一个增量链接没有生成它；正在执行完全链接
-  ComputerNet1.0.vcxproj -> C:\Users\10146\Documents\GitHub\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.exe
-  ComputerNet1.0.vcxproj -> C:\Users\10146\Documents\GitHub\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.pdb (Partial PDB)
