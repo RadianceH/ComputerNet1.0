@@ -61,6 +61,6 @@ void Manage::shortest(int a)
 			cout << "到路由器" << vexs[i] << "的最短路径为" << dist[i] << "   " << "下一跳为路由器" << vexs[l] << endl;
 		}
 	}
-
+	cout << "lhyyyy" << endl;
 
 }
