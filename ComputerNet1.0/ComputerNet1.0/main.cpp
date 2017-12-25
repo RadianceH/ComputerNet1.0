@@ -8,7 +8,11 @@ int main()
 	Manage G;
 	int i, j, k;
 	G.readtxt();
+<<<<<<< HEAD
 	
+=======
+	G.print();
+>>>>>>> 8d4145a006ef7e11cffc3763f194e487627c6ba6
 	while (1)
 	{
 		
