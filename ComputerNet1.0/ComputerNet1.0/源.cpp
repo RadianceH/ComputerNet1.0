@@ -1,23 +1,34 @@
 #include<iostream>
 #include<string>
 using namespace std;
-
-typedef struct EdgeNode//边表结点
+#define Maxnum 100
+typedef struct gp
 {
-	int adjvex;   //存储该顶点对应的下标
-	int weight;   //用于存储权值
-	struct EdgeNode *next;  //链域，指向下一个邻接点
-}EdgeNode;
+	int vexs[Maxnum];
+	int arc[Maxnum][Maxnum];
+	int numNode;
+	int numEdge;
+};
 
-typedef struct VextexNode  //顶点表结点
-{
-	char date;   //顶点域，存储顶点信息 ip
-	EdgeNode *firstNode;//边表头指针
-}vextexNode,Adjlist[100];
 
-typedef struct
+
+class Manage
 {
-	Adjlist adjlist;
-	int numNodes, numEdges;//图中当前顶点数与边数
+private:
+	int numNodes;
+	int numEdges;
+public:
+	Manage();
+	~Manage();
+	void creategraph();
+	void readtxt();
+	void addNode();
+	void delNode();
+	void output();
 }GraphAdjList;
+
+Manage::creategraph()
+{
+
+}
 int main(){}
