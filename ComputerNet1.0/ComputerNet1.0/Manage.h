@@ -15,10 +15,8 @@ private:
 public:
 	Manage();
 	~Manage();
-	void creategraph();
 	void readtxt();
-	void addNode();
 	void delNode();
-	void shortest();
+	void shortest(int v);
 };
 
