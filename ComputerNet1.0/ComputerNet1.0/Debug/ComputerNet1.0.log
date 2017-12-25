@@ -1,6 +1,18 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿LINK : fatal error LNK1104: 无法打开文件“gdi32.lib”
 =======
 ﻿  ComputerNet1.0.vcxproj -> C:\Users\10146\Documents\GitHub\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.exe
   ComputerNet1.0.vcxproj -> C:\Users\10146\Documents\GitHub\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.pdb (Partial PDB)
 >>>>>>> 1e17eb929c3dadbf4d07d9195ce65ad8160e078d
+=======
+﻿  main.cpp
+  Manage.cpp
+d:\计网课设\computernet1.0\computernet1.0\computernet1.0\manage.cpp(144): warning C4101: “e”: 未引用的局部变量
+d:\计网课设\computernet1.0\computernet1.0\computernet1.0\manage.cpp(144): warning C4101: “d”: 未引用的局部变量
+  正在生成代码...
+d:\计网课设\computernet1.0\computernet1.0\computernet1.0\manage.cpp(72): warning C4715: “Manage::Num”: 不是所有的控件路径都返回值
+  LINK : 没有找到 D:\计网课设\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.exe 或上一个增量链接没有生成它；正在执行完全链接
+  ComputerNet1.0.vcxproj -> D:\计网课设\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.exe
+  ComputerNet1.0.vcxproj -> D:\计网课设\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.pdb (Partial PDB)
+>>>>>>> 99fbed988a0a9afbcb3cf97015ab4351b1d73fbe
