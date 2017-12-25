@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void main()
+int main()
 {
 	Manage G;
 	int i, j, k;
@@ -50,4 +50,5 @@ void main()
 		}
 
 	}
+	return 0;
 }

@@ -141,7 +141,7 @@ void Manage::shortest(int a)
 	int *dist = new int[n];
 	int *path = new int[n];
 	bool *s = new bool[n];
-	int i, j, k,u,m,l,d,e,min;
+	int i, j, k,u,m,l,min;
 	for (i = 0; i < n; i++)
 	{
 		dist[i] = arc[v][i];
