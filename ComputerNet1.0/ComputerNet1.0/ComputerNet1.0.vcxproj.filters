@@ -23,7 +23,13 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Manage.cpp">
+    <ClCompile Include="Manage1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Manage2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Manage3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

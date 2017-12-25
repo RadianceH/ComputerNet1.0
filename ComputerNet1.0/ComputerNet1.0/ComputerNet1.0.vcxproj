@@ -112,7 +112,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Manage.cpp" />
+    <ClCompile Include="Manage1.cpp" />
+    <ClCompile Include="Manage2.cpp" />
+    <ClCompile Include="Manage3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Manage.h" />

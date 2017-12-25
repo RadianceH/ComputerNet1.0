@@ -1,7 +1,7 @@
-﻿  main.cpp
-  Manage.cpp
+﻿  Manage3.cpp
+  Manage2.cpp
+  Manage1.cpp
   正在生成代码...
-d:\计网课设\computernet1.0\computernet1.0\computernet1.0\manage.cpp(72): warning C4715: “Manage::Num”: 不是所有的控件路径都返回值
-  LINK : 没有找到 D:\计网课设\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.exe 或上一个增量链接没有生成它；正在执行完全链接
+d:\计网课设\computernet1.0\computernet1.0\computernet1.0\manage2.cpp(49): warning C4715: “Manage::Num”: 不是所有的控件路径都返回值
   ComputerNet1.0.vcxproj -> D:\计网课设\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.exe
   ComputerNet1.0.vcxproj -> D:\计网课设\ComputerNet1.0\ComputerNet1.0\Debug\ComputerNet1.0.pdb (Partial PDB)
