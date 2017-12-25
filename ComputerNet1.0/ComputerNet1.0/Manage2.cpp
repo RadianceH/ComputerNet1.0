@@ -25,7 +25,7 @@ void Manage::readtxt()
 		i++;
 	}
 
-	cout << "路由器号" << endl;
+	cout << "路由器号" <<"添加的东西"<< endl;
 	for (int a = 0; a<numNodes; a++)
 	{
 		cout << vexs[a] << "	";
