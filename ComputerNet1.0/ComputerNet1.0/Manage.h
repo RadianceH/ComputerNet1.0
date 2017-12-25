@@ -17,18 +17,12 @@ private:
 public:
 	Manage();
 	~Manage();
-<<<<<<< HEAD
+	void print();
 	int Num(int a);
-	void creategraph();
 	void readtxt();
-	void addNode();
 	void delNode(int m);//É¾³ıµã 
 	void delSide(int m,int n); //É¾³ı±ß 
-	void shortest();
-=======
-	void readtxt();
-	void delNode();
 	void shortest(int v);
->>>>>>> 1125247a468d25a198a70729bf67ba85ce0d5b0b
+
 };
 #endif

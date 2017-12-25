@@ -1,6 +1,7 @@
 #include"Manage.h"
 #include<string>
 #include<fstream> 
+#include<iostream>
 using namespace std;
 
 
@@ -13,8 +14,19 @@ Manage::~Manage() {
 
 }
 
-<<<<<<< HEAD
 
+void Manage::print() {
+	cout << "路由号" << endl;
+	for (int a = 0; a<numNodes; a++)
+	{
+		cout << vexs[a] << "	";
+		for (int b = 0; b<numNodes; b++)
+		{
+			cout << arc[a][b] << "	";
+		}
+		cout << endl;
+	}
+}
 void Manage::readtxt()
 {
 
@@ -48,7 +60,6 @@ for(int a=0;a<numNodes;a++)
 }
 OpenFile.close();
 
-	cout<<numNodes<<"here";	
 }
 
 int Manage::Num(int a)
@@ -121,10 +132,10 @@ for(int j=0;j<numNodes;j++)
 OpenFile.close();
 readtxt();
 }
-=======
+
 void Manage::shortest(int a)
 {
-	int v = a - 1;
+	int v = Num(a);
 	int n = numNodes;
 	int max = 9;
 	int *dist = new int[n];
@@ -175,13 +186,12 @@ void Manage::shortest(int a)
 				l = j;
 				j = path[j];
 			}
-			d = i + 1;
-			e = l + 1;
-			cout << "到路由器" << d << "的最短路径为" << dist[i] << "   " << "下一跳为路由器" << e << endl;
+	
+			cout << "到路由器" << vexs[i] << "的最短路径为" << dist[i] << "   " << "下一跳为路由器" << vexs[l] << endl;
 		}
 	}
 
 
 }
 
->>>>>>> 1125247a468d25a198a70729bf67ba85ce0d5b0b
+
