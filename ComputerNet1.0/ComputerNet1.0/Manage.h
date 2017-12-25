@@ -18,7 +18,7 @@ public:
 	Manage();
 	~Manage();
 	void print();
-	int Num(int a);
+	int Num(int b);
 	void readtxt();
 	void delNode(int m);//É¾³ýµã 
 	void delSide(int m,int n); //É¾³ý±ß 

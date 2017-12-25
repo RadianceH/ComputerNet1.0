@@ -62,11 +62,11 @@ OpenFile.close();
 
 }
 
-int Manage::Num(int a)
+int Manage::Num(int b)
 {
 	for(int i=0;i<numNodes;i++)
 	{
-		if(vexs[i]==a)
+		if(vexs[i]==b)
 		return i;
 	}
 }
