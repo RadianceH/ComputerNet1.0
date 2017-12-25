@@ -71,3 +71,4 @@ void Manage::shortest(int a)
 
 
 }
+
