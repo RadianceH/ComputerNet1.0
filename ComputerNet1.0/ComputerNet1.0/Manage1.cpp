@@ -16,7 +16,7 @@ Manage::~Manage() {
 
 
 void Manage::print() {
-	cout << "路由号" << endl;
+	cout << "路由器号" << endl;
 	for (int a = 0; a<numNodes; a++)
 	{
 		cout << vexs[a] << "	";
