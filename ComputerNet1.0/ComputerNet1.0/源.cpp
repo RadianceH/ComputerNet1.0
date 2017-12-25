@@ -2,19 +2,14 @@
 #include<string>
 using namespace std;
 #define Maxnum 100
-typedef struct gp
-{
-	int vexs[Maxnum];
-	int arc[Maxnum][Maxnum];
-	int numNode;
-	int numEdge;
-};
 
 
 
 class Manage
 {
 private:
+	int vexs[Maxnum];
+	int arc[Maxnum][Maxnum];
 	int numNodes;
 	int numEdges;
 public:
